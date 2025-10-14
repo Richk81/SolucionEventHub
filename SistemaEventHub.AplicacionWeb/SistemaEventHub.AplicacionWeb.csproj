@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaEventHub.BLL\SistemaEventHub.BLL.csproj" />
+    <ProjectReference Include="..\SistemaEventHub.Entity\SistemaEventHub.Entity.csproj" />
+    <ProjectReference Include="..\SistemaEventHub.IOC\SistemaEventHub.IOC.csproj" />
+  </ItemGroup>
+
+</Project>
